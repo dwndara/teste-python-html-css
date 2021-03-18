@@ -2,13 +2,21 @@
 
 {% block content %}
 <h1>Sign In</h1>
-<form>
+<form method = "POST" action">
     <p>
-        <label>Username: </label>
-        <input id="username" type="text">
+        <label for ="username" > Usuário: </label>
+        <input name="user" id="username" type="text">
     </p>
     <p>
-        <input type="password">
+        <label for ="password"> "Senha:" </label>
+        <input name = "pass" id = "password" type="password">
     </p>
+    <p>
+        <input type ="checkbox"  id ="remember">
+        <label for ="remember" > Lembrar-me </label>
+
+    </p>
+    <button>Logar</button>
+
 </form>
 {% endblock %}
