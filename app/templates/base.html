@@ -1,13 +1,17 @@
 <html>
     <head>
       {% if title %}
-      <title>{{ title }} - Mundinho discord </title>
+      <title>{{ title }} - Microblog</title>
       {% else %}
-      <title> Família </title>
+      <title>Welcome to Microblog</title>
       {% endif %}
     </head>
     <body>
-        <div>Casa de gente doida <a href="/index">Home</a></div>
+        <div>Microblog: 
+            <a href="/index">Home</a>
+            <a href="/login">Logar</a>
+        </div>
+        </div>
         <hr>
         {% block content %}{% endblock %}
     </body>
