@@ -7,7 +7,7 @@ from flask import render_template
 def index():
     user = {'username': 'Dandara'}
     posts = [
-        {'author': {'username': 'Jully'}, 'body': "Rocketzada??"},
+        {'author': {'username': 'Jully'}, 'body': "Gaymeplays"},
         {'author': {'username': 'Luiz'}, 'body': "Vavazada??"},
         {'author': {'username': 'Fábio'}, 'body': "Rocketzada!!!"},
     ]
